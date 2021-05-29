@@ -48,3 +48,7 @@ UPDATE XTREAM UI 2.0.2
 # Install
 
 apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && wget "http://basgelsin.net/release_2.0.2.zip" -O /tmp/release_2.0.2.zip -o /dev/null && unzip /tmp/release_2.0.2.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/release_2.0.2.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
+
+
+#NEXT UPDATE CREATED CHANNEL NOW
+#There are a couple of things that need to be written and it takes time
