@@ -25,7 +25,7 @@ UPDATE XTREAM UI 2.0.1
 
 [MAG] When User Blocked or Expired can see MAC ADRESSE in dashboard
 
-# Install
+# Install 2.0.1
 
 apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && wget "http://basgelsin.net/release_2.0.zip" -O /tmp/release_2.0.zip -o /dev/null && unzip /tmp/release_2.0.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/release_2.0.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
@@ -45,11 +45,11 @@ UPDATE XTREAM UI 2.0.2
 
 [Add] User (CREATED) in Edit User
 
-# Install
+# Install 2.0.2
 
 apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && wget "http://basgelsin.net/release_2.0.2.zip" -O /tmp/release_2.0.2.zip -o /dev/null && unzip /tmp/release_2.0.2.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/release_2.0.2.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
-UPDATE XTREAM UI 2.0.3
+# UPDATE XTREAM UI 2.0.3
 
 [Added] Movies and Episodes see now Informations
 
@@ -69,11 +69,13 @@ UPDATE XTREAM UI 2.0.3
 
 [Added] Disk Space in Dashboard
 
-# Install
+# Install 2.0.3
 
 apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && wget "http://basgelsin.net/release_2.0.3.zip" -O /tmp/release_2.0.3.zip -o /dev/null && unzip /tmp/release_2.0.3.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/release_2.0.3.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
-UPDATE XTREAM UI 2.0.4
+
+# UPDATE XTREAM UI 2.0.4
+
 
 [Added] Nginx 1.21.0
 
@@ -103,7 +105,7 @@ UPDATE XTREAM UI 2.0.4
 
 [Added] MAG520/MAG520W1/MAG520W3/MAG524/MAG524W3
 
-# Install
+# Install 2.0.4
 
 apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && wget "http://basgelsin.net/release_2.0.4.zip" -O /tmp/release_2.0.4.zip -o /dev/null && unzip /tmp/release_2.0.4.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/release_2.0.4.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
